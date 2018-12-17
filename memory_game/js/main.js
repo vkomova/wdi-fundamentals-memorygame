@@ -21,7 +21,7 @@ var cards = [
 	}
 ];
 
-var cardsInPlay = []
+var cardsInPlay = [];
 
 var checkForMatch = function () {
 	if (cardsInPlay[0] === cardsInPlay[1]) {
@@ -37,8 +37,8 @@ var flipCard = function (cardId) {
 	console.log(cards[cardId].cardImage);
 	console.log(cards[cardId].suit);
 	if (cardsInPlay.length === 2) {
-	checkForMatch();
-}
+		checkForMatch();
+	}
 };
 
 flipCard(0);
